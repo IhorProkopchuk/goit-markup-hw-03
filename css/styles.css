@@ -36,14 +36,17 @@ img {
 /* reset end */
 
 .container {
+    margin-left: auto;
+    margin-right: auto;
     width: 1230px;
-    margin: 0 auto;
-    padding: 0 15px;
     outline: 2px dashed red;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .section {
-    padding: 94px 0;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .header-container {
@@ -163,9 +166,21 @@ img {
     color: #FFFFFF;
     cursor: pointer;
     padding: 10px 32px;
+    border-color: transparent;
 }
+/* filter select*/
 
+.header-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-list .header-btn {
+    margin-left: 8px;
+}
 .header-btn {
+    display: inline-block;
+    justify-content: center;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -179,11 +194,18 @@ img {
     border-radius: 4px;
     cursor: pointer;
     padding: 6px 25px;
+    border-color: transparent;
+
 
 }
 .header-btn:hover {
     background: var(--brand-color-main);
     color:#FFFFFF;
+}
+
+.header- {
+    display:inline-block;
+    justify-content: center;
 }
 
 /* HERO */
@@ -275,6 +297,18 @@ img {
     color: var(--brand-color-alt);
     text-align: center;
     margin-bottom: 30px;
+}
+/*artworks*/
+.artworks-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    flex-basis: calc(100% / 3);
+}
+.artworks-wrap {
+    padding: 20px 24px;
+    border: 1px solid #eeeeee;
+    border-top: 0;
 }
 
 .artworks-title {
