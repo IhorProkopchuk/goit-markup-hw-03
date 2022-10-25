@@ -11,61 +11,75 @@
   </head>
   <body>
     <header>
-      <nav>
+      <div class="header-container container">
         <a class="logo link" href="./index.html">
           <span class="logo-web">Web</span><span class="logo-studio">Studio</span>
         </a>
+      <nav>
+        <div>
         <ul class="nav-list header-nav list">
-          <li><a class="header-nav-link link active-link" href="./index.html">Студія</a></li>
-          <li><a class="header-nav-link link" href="./portfolio.html">Портфоліо</a></li>
-          <li><a class="header-nav-link link" href="/">Контакти</a></li>
+          <li><a class="header-item header-nav-link link active-link" href="./index.html">Студія</a></li>
+          <li><a class="header-item header-nav-link link" href="./portfolio.html">Портфоліо</a></li>
+          <li><a class="header-item header-nav-link link" href="/">Контакти</a></li>
         </ul>
+        </div>
       </nav>
+      </nav>
+      <div class="header-group">
       <ul class="nav-list header-nav list">
       <li><a class="header-contacts-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
       <li><a class="header-contacts-email" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
       </ul>
+      </nav>
+    </div>
     </header>
     <main>
-      <section class="order">
-        <h1 class="order-title">Ефективні рішення для вашого бізнесу</h1>
-        <button class="order-btn" type="button">Замовити послугу</button>
-      </section>
-      <section class="features">
-        <h2 class="hidden">Ми зробимо Ваш сайт живим!</h2>
-      <ul class="list">
-        <li>
-          <h3 class="features-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-          <p class="features-descr">Ідейні міркування, і навіть початок повсякденної роботи з формування
-          позиції.</p>
-        </li>  
-        <li>
-          <h3 class="features-title">ПУНКТУАЛЬНІСТЬ</h3>
-          <p class="features-descr">Завдання організації, особливо рамки і місце навчання кадрів тягне у
-          себе.</p>
-        </li>  
-        <li>
-          <h3 class="features-title">ПЛАНУВАННЯ</h3>
-          <p class="features-descr">Так само консультація з широким активом значною мірою зумовлює.</p>
-        </li>
-        <li>
-          <h3 class="features-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-          <p class="features-descr">Значимість цих проблем настільки очевидна, що реалізація планових
-          завдань.</p>
-        </li>
-      </ul>
-      </section>
-      <section class="about">
-        <h2 class="about-main">Чим ми займаємося</h2>
-        <ul class="list">
-            <li><img src="./images/about1.jpg" alt="pic1" width="370"></li>
-            <li><img src="./images/about2.jpg" alt="pic2" width="370"></li>
-            <li><img src="./images/about3.jpg" alt="pic3" width="370"></li>
-        </ul>
-      </section>
-      <section class="team">
+      <div>
+        <section class="order">
+            <h1 class="order-title">Ефективні рішення для вашого бізнесу</h1>
+            <button class="order-btn" type="button">Замовити послугу</button>
+          </section>
+      </div>
+      <div class="container">    
+          <section class="section features">
+            <h2 class="hidden">Ми зробимо Ваш сайт живим!</h2>
+          <ul class="list features-container">
+            <li>
+              <h3 class="features-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="features-descr">Ідейні міркування, і навіть початок повсякденної роботи з формування
+              позиції.</p>
+            </li>  
+            <li>
+              <h3 class="features-title">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="features-descr">Завдання організації, особливо рамки і місце навчання кадрів тягне у
+              себе.</p>
+            </li>  
+              <li>
+               <h3 class="features-title">ПЛАНУВАННЯ</h3>
+              <p class="features-descr">Так само консультація з широким активом значною мірою зумовлює.</p>
+            </li>
+            <li>
+              <h3 class="features-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="features-descr">Значимість цих проблем настільки очевидна, що реалізація планових
+              завдань.</p>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="container">
+        <section class="section about">
+          <h2 class="about-main">Чим ми займаємося</h2>
+          <ul class="list section-about about-container">
+              <li class="about-items"><img src="./images/about1.jpg" alt="pic1" width="370"></li>
+              <li class="about-items"><img src="./images/about2.jpg" alt="pic2" width="370"></li>
+              <li class="about-items"><img src="./images/about3.jpg" alt="pic3" width="370"></li>
+          </ul>
+        </section>
+      </div>
+      <div class="container">
+      <section class="section team">
         <h2 class="team-main">Наша команда</h2>
-        <ul class="list">
+        <ul class="list team-container">
           <li class="team-card">
             <img src="./images/ihor.jpg" alt="Ihor Product Designer" width="270">
             <h3 class="team-name">Ігор Дем'яненко</h3>
@@ -88,18 +102,21 @@
           </li>
         </ul>
       </section>
+      </div>
     </main>
     <footer class="footer-style">
-        <a class="logo link" href="./index.html">
-          <span class="logo-web">Web</span><span class="logo-studio-bt">Studio</span>
-        </a>
-      <address class="address-style">
-        <ul class="list">
-        <li><p class="street">м. Київ, пр-т Лесі Українки, 26</p></li>
-        <li><a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
-      </address>
-</footer>
+      <div class="container">
+          <a class="logo link" href="./index.html">
+            <span class="logo-web">Web</span><span class="logo-studio-bt">Studio</span>
+          </a>
+        <address class="address-style">
+          <ul class="list">
+          <li><p class="street">м. Київ, пр-т Лесі Українки, 26</p></li>
+          <li><a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a></li>
+          </ul>
+        </address>
+      </div>
+    </footer>
   </body>
 </html>
