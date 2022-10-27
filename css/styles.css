@@ -68,6 +68,10 @@ img {
     margin-right: 50px;
 }
 
+.header-item-last {
+    padding: 32px 0;
+}
+
 .nav-list {
     display:flex;
     align-items: center;
@@ -107,9 +111,7 @@ img {
     color: var(--brand-txt-clr);
 }    
 
-.header-item-last {
-    padding: 32px 0;
-}
+
 
 .header-nav-link:hover, .header-nav-link:focus {
     color: var(--brand-color-main);
@@ -424,19 +426,17 @@ img {
     text-decoration: none;
     font-family: 'Roboto';
     font-style: normal;
-    /*line-height: 1.71;*/
     color: #FFFFFF;
+}
+.contacts-marg {
     margin-bottom: 9px;
 }
-
 
 .contacts {
     font-family:'Roboto';
     text-decoration: none;
     font-style: normal;
-    /*line-height: 1.71;*/
     color: rgba(255, 255, 255, 0.6);
-    margin-bottom: 9px;
 }
 
 .contacts:hover, .contacts:focus {
