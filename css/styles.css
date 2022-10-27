@@ -222,27 +222,11 @@ img {
     cursor: pointer;
     padding: 6px 25px;
     border-color: transparent;
-    margin-right: 8px;
 }    
 
-.header-btn-last {
-    display: inline-block;
-    justify-content: center;
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    color: var(--brand-txt-clr);
-    max-width: 250px;
-    min-width: 125px;
-    min-height: 38px;
-    background: #F5F4FA;
-    border-radius: 4px;
-    cursor: pointer;
-    padding: 6px 25px;
-    border-color: transparent;
-}   
+.header-btn-mrg:not(:last-child) {
+    margin-right: 8px;
+}
 
 .header-btn:hover, .header-btn-last:hover {
     background: var(--brand-color-main);
