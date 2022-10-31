@@ -75,9 +75,9 @@ img {
 .nav-list {
     display:flex;
     align-items: center;
-    margin-top: 32px;
+    /*margin-top: 32px;*/
     margin-right: 0px;
-    margin-bottom: 32px;
+    /*margin-bottom: 32px;*/
     margin-left: 90px;
 
 }
@@ -184,7 +184,7 @@ img {
     border-color: transparent;
 }
 
-.order-btn:active {
+.order-btn:active, .order-btn:hover, .order-btn:focus {
     background-color: #188CE8;
     border-color: transparent;
     color: #FFFFFF;
@@ -228,7 +228,7 @@ img {
     margin-right: 8px;
 }
 
-.header-btn:hover, .header-btn-last:hover {
+.header-btn:hover {
     background: var(--brand-color-main);
     color:#FFFFFF;
 }
